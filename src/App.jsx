@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import EarlyAccess from './components/EarlyAccess'
 import Features from './components/Features'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <Productive />
       <Testimonials />
+      <EarlyAccess />
 
     </div>
   )
