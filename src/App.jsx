@@ -3,6 +3,7 @@ import Features from './components/Features'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Productive from './components/Productive'
+import Testimonials from './components/Testimonials'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Features />
       <Productive />
+      <Testimonials />
 
     </div>
   )
